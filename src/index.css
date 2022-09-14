@@ -7,9 +7,8 @@ font
 
 --------------------------------------
 */
-
-@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
 
 /*
 -------------------------------------
@@ -33,12 +32,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans KR';
   font-weight: normal;
-  color: #444;
   line-height: 1;
   letter-spacing: -0.025em;
-  overflow-x: hidden;
+  color: #444444;
 }
 
 ul,
@@ -111,17 +109,11 @@ i {
   font-style: normal;
 }
 
-/* button {
-  color: inherit;
-  border: 0;
-  background: none;
-  cursor: pointer;
-} */
 
 hr {
   margin: 0;
   padding: 0;
-  /* border: none; */
+  border: none;
   display: block;
 }
 
