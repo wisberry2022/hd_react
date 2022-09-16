@@ -5,6 +5,7 @@ import MainContent from './component/MainContent';
 import Portfolio from './component/Portfolio';
 import Solution from './component/Solution';
 import Promotion from './component/Promotion';
+import News from './component/News';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Portfolio />
         <Solution />
         <Promotion />
+        <News />
       </main>
     </div>
   );

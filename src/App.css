@@ -629,7 +629,7 @@
 
 .Promotion .movie {
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
   width: 800px;
   height: 450px;
 }
@@ -640,4 +640,62 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.Promotion .des {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  text-align: center;
+}
+
+.Promotion .des li {
+  position: relative;
+  width: 300px;
+  cursor: pointer;
+}
+
+.Promotion .des li:nth-child(-n+4)::after {
+  content: "";
+  position: absolute;
+  top: 130%;
+  right: 30%;
+  width: 4px;
+  height: 15px;
+  background: var(--lc);
+  transition: 0.5s;
+}
+
+.Promotion .des li:nth-child(-n+4).on::after {
+  height: 30px;
+  background: var(--sc);
+}
+
+.Promotion .des li:last-child.on::after {
+  height: 30px;
+  background: var(--sc);
+}
+
+.Promotion .des .tit {
+  margin: 0 0 20px 0;
+  color: var(--sc);
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.Promotion .des p {
+  color: var(--lc);
+  font-size: 15px;
+}
+
+.Promotion .movie_title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 0 15px;
+  min-width: 300px;
+  color: var(--lc);
+  background: var(--mc);
+  line-height: 35px;
 }
