@@ -6,6 +6,7 @@ import Portfolio from './component/Portfolio';
 import Solution from './component/Solution';
 import Promotion from './component/Promotion';
 import News from './component/News';
+import Footer from './component/Footer';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Promotion />
         <News />
       </main>
+      <Footer />
     </div>
   );
 }
